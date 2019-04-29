@@ -1,0 +1,24 @@
+h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600
+}
+
+li {
+  list-style: none;
+  font-size: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+li:last-of-type {
+  border: none;
+}
+
+.icon {
+  height: 14px;
+  margin: 0 5px;
+}
+

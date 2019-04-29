@@ -1,0 +1,28 @@
+.info-box {
+  justify-content: center;
+  border-radius: 15px;
+  padding: 20px 20px 5px 20px;
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 17px -1px rgba(0,0,0,0.5);
+  margin: auto;
+  min-width: 350px;
+  white-space: nowrap
+}
+
+.error-message {
+  border-radius: 3px;
+  border: 1px solid #E9CDCC;
+  background-color: #FADEDE;
+  color: #9B0F05;
+  padding: 13px;
+  width: 92%;
+  margin: 10px 0;
+}
+
+#results {
+  max-height: 400px;
+  min-height: 20px;
+  overflow: scroll;
+  margin: 5px 0;
+}
